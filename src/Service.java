@@ -3,13 +3,6 @@ public class Service
 Connection con-null;
 ResultSet rs= null;
 Statement st= null;
-<!-- piku-tr02 please remove these lines -->
-public List service()
-{
-	Class.forName();
-	con=DriverManager.fetConnection(jdbc:mysql://localhost:...);
-}
-<!-- Upto here -->
 try{
 Class.forName("com.mysql.jdbc.Driver");
 Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sonoo","root","root");

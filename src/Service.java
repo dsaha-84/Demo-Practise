@@ -22,7 +22,8 @@ con.close();
 }
  public static void main(String[] as)
 {
-	System.out.println(:Contributed by Collaborator Piku-tr02");
+	System.out.println("Contributed by Collaborator Piku-tr02");
+	System.out.println("Contributed by Collaborator dsaha-84");
 }
 }
 
